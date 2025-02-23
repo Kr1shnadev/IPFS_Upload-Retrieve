@@ -35,7 +35,7 @@ If you need to revoke access:
 
 1. Go to the **API Keys** section in your Pinata dashboard.
 2. Find the key you want to delete.
-3. Click **Delete**.
+3. Click **Revoke**.
 4. Confirm the deletion (⚠️ This action cannot be undone).
 
 ---

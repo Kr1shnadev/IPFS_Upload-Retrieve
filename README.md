@@ -52,6 +52,64 @@ If there’s an error, it will display an appropriate error message.
 - The uploaded file will be pinned to IPFS via Pinata, meaning it will remain available even if your local copy is deleted.
 - CID (Content Identifier) is a unique hash representing the file on IPFS.
 
+# Pinata File Downloader
+
+This Node.js script allows you to download a file from IPFS using Pinata. It fetches the file using a public IPFS gateway and saves it to a specified location on your system.
+
+## Prerequisites
+
+- **Node.js** installed on your system.
+- **Axios** installed (`npm install axios`).
+- **A valid Pinata JWT** (JSON Web Token) for authentication.
+- **A CID (Content Identifier)** of the file uploaded to IPFS.
+
+## Installation
+
+1. Clone this repository or copy the script to your project.
+2. Install required dependencies:
+   ```sh
+   npm install dotenv axios fs
+   ```
+3. Create a `.env` file (optional) to store your **Pinata JWT** securely.
+
+## Configuration
+
+- Update the script with your **CID**:
+  ```js
+  const CID = 'Your_CID_Here';
+  ```
+- Set the file path where the retrieved file should be saved:
+  ```js
+  const FILE_PATH = 'D:\\retrieved_file.png';
+  ```
+  *(Ensure the file extension matches the original file type.)*
+- Replace `Pinata_JWT` in the script with your **Pinata JWT**:
+  ```js
+  Authorization: `Bearer Your_Pinata_JWT_Here`
+  ```
+  **⚠️ Warning:** Do not remove `Bearer` from the Authorization header.
+
+## Usage
+
+Run the script with Node.js:
+```sh
+node fetchFile.js
+```
+
+## Troubleshooting
+
+- If the default **IPFS gateway** (`https://dweb.link`) is not working, check the `gateway.txt` file for alternative gateways.
+- Ensure your **CID** is correct and publicly accessible.
+- Verify that your **Pinata JWT** is valid and has access to retrieve the file.
+- If you encounter file write errors, check permissions for the target directory.
+
+## Notes
+
+- This script retrieves files **as a stream** to handle large files efficiently.
+- The file will be saved at the specified location; ensure the directory exists before running the script.
+
 ## License
-This script is free to use and modify as needed.
+
+This project is open-source and free to use. Modify it as needed!
+
 

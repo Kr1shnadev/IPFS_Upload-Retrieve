@@ -33,11 +33,6 @@ Also, update the **filePath** variable with the actual path of the file you want
 const filePath = 'D:\\evidence.png';
 ```
 
-## Usage
-Run the script using:
-```sh
-node script.js
-```
 
 ## Expected Output
 If successful, you should see:
@@ -88,13 +83,6 @@ This Node.js script allows you to download a file from IPFS using Pinata. It fet
   Authorization: `Bearer Your_Pinata_JWT_Here`
   ```
   **⚠️ Warning:** Do not remove `Bearer` from the Authorization header.
-
-## Usage
-
-Run the script with Node.js:
-```sh
-node fetchFile.js
-```
 
 ## Troubleshooting
 

@@ -15,34 +15,23 @@ To interact with Pinata's API, you need an API key:
 1. Once logged in, navigate to the **API Keys** section from the dashboard.
 2. Click on **New Key**.
 3. Enter a name for your API key.
-4. Set the required permissions (e.g., `Pinning`, `Reading`, `Deleting`).
+4. Set the required permissions (e.g., `Pinning`, `Reading`, `Deleting`). (Recommended - Admin)
+
 5. Click **Create Key**.
 6. A popup will appear with your **API Key**, **API Secret**, and **JWT** token.
 
 ## 3. Save Your Keys Securely
 🚨 **Important:** Pinata only shows your API Secret and JWT once! Before closing the popup, make sure to save them securely.
+![Screenshot 2025-02-23 140813](https://github.com/user-attachments/assets/ec5c8268-7c66-44c9-afbb-88b850ce2313)
+
 
 - Copy and paste the API Key, Secret, and JWT into a safe location.
 - If you lose them, you’ll need to create a new key, as the secret cannot be retrieved again.
 
-## 4. Using Your API Key
-Once you have your API key, you can use it in your projects to interact with IPFS. Here’s an example of how to use your JWT in API requests:
-
-```js
-const axios = require('axios');
-const API_JWT = 'your_jwt_token_here';
-
-axios.get('https://api.pinata.cloud/data/testAuthentication', {
-    headers: {
-        Authorization: `Bearer ${API_JWT}`
-    }
-})
-.then(response => console.log(response.data))
-.catch(error => console.error(error));
-```
-
-## 5. Deleting an API Key
+## 4. Deleting an API Key
 If you need to revoke access:
+![image](https://github.com/user-attachments/assets/03230185-d66a-40cb-b290-662a787ed141)
+
 
 1. Go to the **API Keys** section in your Pinata dashboard.
 2. Find the key you want to delete.

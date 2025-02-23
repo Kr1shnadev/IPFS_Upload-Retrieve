@@ -1,0 +1,15 @@
+https://dweb.link/ipfs/
+https://gateway.pinata.cloud/ipfs/
+https://ipfs.io/ipfs/
+https://cloudflare-ipfs.com/ipfs/
+https://hardbin.com/ipfs/
+https://nftstorage.link/ipfs/
+https://infura-ipfs.io/ipfs/
+https://cf-ipfs.com/ipfs/
+https://ipfs.best-practice.se/ipfs/
+https://ipfs.runfission.com/ipfs/
+https://ipfs.eternum.io/ipfs/
+https://ipfs.drink.cafe/ipfs/
+https://ipfs.sloppyta.co/ipfs/
+https://jorropo.net/ipfs/
+https://storry.tv/ipfs/

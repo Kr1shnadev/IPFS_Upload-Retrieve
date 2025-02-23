@@ -11,7 +11,7 @@ Before running the script, make sure you have:
 3. **Pinata SDK** installed.
 
 ## WARNING 
-After creating the Api key make sure to save the JWT and your secret api key before closing this pop-up
+Once you have that filled out click “Create Key” and it will show you the pinata_api_key, pinata_api_secret_key, and the JWT. It’s best to click “Copy All” and keep the API key data safe and secure. ⚠️ Once API keys have been created, you will not be able to see the secret or JWT again
 ![image](https://github.com/user-attachments/assets/b524ee17-9581-4ffb-8439-d0f9914bc94c)
 
 

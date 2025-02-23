@@ -10,6 +10,11 @@ Before running the script, make sure you have:
 2. **Pinata API Key** and **Secret API Key** (from [Pinata](https://www.pinata.cloud)).
 3. **Pinata SDK** installed.
 
+## WARNING 
+After creating the Api key make sure to save the JWT and your secret api key before closing this pop-up
+![image](https://github.com/user-attachments/assets/b524ee17-9581-4ffb-8439-d0f9914bc94c)
+
+
 ## Installation
 Run the following command to install the required dependencies:
 ```sh

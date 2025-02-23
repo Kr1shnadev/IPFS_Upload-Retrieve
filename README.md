@@ -1,5 +1,5 @@
 # IPFS_Upload-Retrieve
-# Pinata File Upload Script
+# Pinata File Upload Script (Upload.js)
 
 ## Overview
 This script uploads a file to **Pinata** (an IPFS pinning service) using the **Pinata SDK**.
@@ -52,7 +52,7 @@ If there’s an error, it will display an appropriate error message.
 - The uploaded file will be pinned to IPFS via Pinata, meaning it will remain available even if your local copy is deleted.
 - CID (Content Identifier) is a unique hash representing the file on IPFS.
 
-# Pinata File Downloader
+# Pinata File Downloader (retrieve.js)
 
 This Node.js script allows you to download a file from IPFS using Pinata. It fetches the file using a public IPFS gateway and saves it to a specified location on your system.
 
